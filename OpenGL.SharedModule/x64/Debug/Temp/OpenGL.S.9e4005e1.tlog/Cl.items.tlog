@@ -1,0 +1,17 @@
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\ImGuiFileDialog.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\ImGuiFileDialog.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\abstraction\OpenGlShape.ixx;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\OpenGlShape.ixx.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\abstraction\Drawer.ixx;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\Drawer.ixx.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\abstraction\SharedModule.ixx;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\SharedModule.ixx.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\glad.c;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\glad.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_demo.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_demo.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_draw.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_draw.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_impl_glfw.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_impl_glfw.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_impl_opengl3.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_impl_opengl3.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_stdlib.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_stdlib.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_tables.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_tables.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\imgui\imgui_widgets.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\imgui_widgets.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\implementation\Drawer.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\Drawer.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\implementation\OpenGlShape.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\OpenGlShape.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\implementation\SharedModule.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\SharedModule.obj
+C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\src\stb_image.cpp;C:\Prog\OpenGL-Lab\OGL\Lecture5\OpenGL.SharedModule\x64\Debug\Temp\stb_image.obj
