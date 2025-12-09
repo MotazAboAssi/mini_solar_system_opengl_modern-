@@ -19,7 +19,7 @@ using namespace glm;
 int SCR_WIDTH = 1280;
 int SCR_HEIGHT = 720;
 
-Camera camera(vec3(0, 0, 30));
+Camera camera(vec3(0, 0, 40));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -75,7 +75,6 @@ int main()
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetCursorPosCallback(window, mouse_callback);
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-
     gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
 
     Shader allShader("./shaders/vs/L5.vs", "./shaders/fs/L5-Multi.fs");
@@ -103,7 +102,7 @@ int main()
     {
         vec3 diffusSun = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.9f, 0.9f, 0.9f);
         vec3 specularSun = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.5f, 0.5f, 0.5f);
-        vec3 diffusMoon = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.6f, 0.6f, 0.6f);
+        vec3 diffusMoon = isKOSOF ? vec3(0.2f, 0.2f, 0.2f) : vec3(0.6f, 0.6f, 0.6f);
         vec3 specularMoon = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.025f, 0.025f, 0.025f);
         vec3 colorMoon = isKHOSOF ? vec3(0.5f, 0.5f, 0.5f) : vec3(1.0f, 1.0f, 1.0f);
 
@@ -285,6 +284,8 @@ void processInput(GLFWwindow *window, float &timeFactor, float sceneTime, vec3 m
         camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS)
+        camera.Position = vec3(0,0,15);
 }
 
 void mouse_callback(GLFWwindow *window, double xposIn, double yposIn)
