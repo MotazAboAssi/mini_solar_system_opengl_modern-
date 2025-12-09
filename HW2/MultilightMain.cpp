@@ -101,7 +101,7 @@ int main()
     while (!glfwWindowShouldClose(window))
     {
         vec3 diffusSun = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.9f, 0.9f, 0.9f);
-        vec3 specularSun = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.5f, 0.5f, 0.5f);
+        vec3 specularSun = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(1.0f, 1.0f, 1.0f);
         vec3 diffusMoon = isKOSOF ? vec3(0.2f, 0.2f, 0.2f) : vec3(0.6f, 0.6f, 0.6f);
         vec3 specularMoon = isKOSOF ? vec3(0.01f, 0.01f, 0.01f) : vec3(0.025f, 0.025f, 0.025f);
         vec3 colorMoon = isKHOSOF ? vec3(0.5f, 0.5f, 0.5f) : vec3(1.0f, 1.0f, 1.0f);
